@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Fleets - Shirdi Saibaba Travels</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Light background color */
+            color: #333333; /* Dark text color for better readability */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Full height of the viewport */
+            padding: 20px;
+        }
+
+        .content {
+            background-color: #ffffff; /* White background for the content */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            max-width: 1200px; /* Wider container for more cards */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50; /* Dark blue color for the title */
+        }
+
+        h2 {
+            font-size: 2em;
+            margin: 20px 0 10px;
+            color: #2980b9; /* Blue color for the section titles */
+        }
+
+        .fleet-category {
+            margin: 40px 0; /* Margin between categories */
+        }
+
+        .fleet-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+            gap: 20px; /* Space between cards */
+        }
+
+        .fleet-card {
+            background-color: #f9f9f9; /* Light background for each card */
+            border: 1px solid #dcdcdc; /* Light border for each card */
+            border-radius: 8px;
+            text-align: center; /* Center text in cards */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+            transition: transform 0.2s; /* Smooth hover effect */
+        }
+
+        .fleet-card:hover {
+            transform: scale(1.05); /* Scale effect on hover */
+        }
+
+        .fleet-card img {
+            width: 100%; /* Responsive image width */
+            height: 120px; /* Fixed height for images */
+            border-top-left-radius: 8px; /* Rounded top corners */
+            border-top-right-radius: 8px; /* Rounded top corners */
+        }
+
+        .fleet-card h3 {
+            font-size: 1.2em;
+            margin: 10px 0; /* Margin for spacing */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h1>Our Fleets</h1>
+
+                    <div class="fleet-category">
+                        <h2>Sedan Fleets</h2>
+                        <div class="fleet-cards">
+                            <div class="fleet-card">
+                                <img src="images/swift_dzire.jpg" alt="Maruti Suzuki Swift Dzire">
+                                <h3>Maruti Suzuki Swift Dzire</h3>
+                            </div>
+                            <div class="fleet-card">
+                                <img src="images/toyota_etios.jpg" alt="Toyota Etios">
+                                <h3>Toyota Etios</h3>
+                            </div>
+                            <div class="fleet-card">
+                                <img src="images/maruti_ciaz.jpg" alt="Maruti Suzuki Ciaz">
+                                <h3>Maruti Suzuki Ciaz</h3>
+                            </div>
+                            <div class="fleet-card">
+                                <img src="images/hyundai_aura.jpg" alt="Hyundai Aura">
+                                <h3>Hyundai Aura</h3>
+                            </div>
+                            <div class="fleet-card">
+                                <img src="images/hyundai_verna.jpg" alt="Hyundai Verna">
+                                <h3>Hyundai Verna</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         
+           
+
+            <div class="fleet-category">
+                <h2>XUV Fleets</h2>
+                <div class="fleet-cards">
+                    <div class="fleet-card">
+                        <img src="images/toyota_innova.jpg" alt="Toyota Innova Crysta">
+                        <h3>Toyota Innova Crysta</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/innova_cab.jpg" alt="Innova Cab">
+                        <h3>Innova Cab</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/mahindra_scorpio.jpg" alt="Mahindra Scorpio">
+                        <h3>Mahindra Scorpio</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/maruti_ertiga.jpg" alt="Maruti Suzuki Ertiga">
+                        <h3>Maruti Suzuki Ertiga</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/kia_carens.jpg" alt="Kia Carens">
+                        <h3>Kia Carens</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/tavera.jpg" alt="Tavera">
+                        <h3>Tavera</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fleet-category">
+                <h2>Bus Fleets</h2>
+                <div class="fleet-cards">
+                    <div class="fleet-card">
+                        <img src="images/tempo_traveller.jpg" alt="Tempo Traveller AC Vehicle">
+                        <h3>Tempo Traveller AC Vehicle</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/tempo_13_seater.jpg" alt="13 Seater Tempo Traveller">
+                        <h3>13 Seater Tempo Traveller</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/tempo_17_seater.jpg" alt="17 Seater Tempo Traveller">
+                        <h3>17 Seater Tempo Traveller</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/urbania_13_seater.jpg" alt="13 Seater Urbania">
+                        <h3>13 Seater Urbania</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/urbania_17_seater.jpg" alt="17 Seater Urbania">
+                        <h3>17 Seater Urbania</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/tempo_20_seater.jpg" alt="20 Seater Tempo Traveller">
+                        <h3>20 Seater Tempo Traveller</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/tempo_26_seater.jpg" alt="26 Seater Tempo Traveller">
+                        <h3>26 Seater Tempo Traveller</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/tempo_32_seater.jpg" alt="32 Seater Mini Bus">
+                        <h3>32 Seater Mini Bus</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/bus_40_seater.jpg" alt="40 Seater Bus">
+                        <h3>40 Seater Bus AC/Non-AC</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/bus_45_seater.jpg" alt="45 Seater Bus">
+                        <h3>45 Seater Bus</h3>
+                    </div>
+                    <div class="fleet-card">
+                        <img src="images/bus_50_seater.jpg" alt="50 Seater Bus">
+                        <h3>50 Seater Bus</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
